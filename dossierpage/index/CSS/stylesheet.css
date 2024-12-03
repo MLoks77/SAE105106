@@ -2,11 +2,18 @@
 
 body{
 
-    background-image: url(../IMAGES/toustisme.jpg);
+    background-image: url(../IMAGES/vacance2.jpg);
     background-size: 100%;
     background-repeat: repeat-x;
-
     margin:0;
+}
+
+h1{ 
+    color: #ffffff;
+    text-align: center;
+    margin: 100px;
+    font-size: xxx-large;
+    font-style: italic;
 }
 
 ul {
@@ -43,6 +50,15 @@ padding: 14px 20px; /*pour séparer les a et rendre ça plus beau*/
 
 a:hover{
     color: #ffcf68; /* couleur par dessus quand on passe la souris */
+}
+
+.titre{
+    border-radius: 20%;
+    line-height: 45px;
+    max-width: 600px;
+    margin: 100px auto;
+    border: 1px solid #535353;
+    background-color: #282d32;
 }
 
 .active {
