@@ -6,10 +6,6 @@ body{
     background-size: 100%;
     background-repeat: repeat-x;
 
-    background-image: url(../IMAGES/toustisme.jpg);
-    background-size: 100%;
-    background-repeat: repeat-x;
-
     margin:0;
 }
 
@@ -37,7 +33,6 @@ li:last-child{
     float: right;
 }
 
-
 a{
 text-decoration: none;
 text-align: center;
@@ -58,10 +53,6 @@ a:hover{
     padding: 70px;
     color:#f0f9ff;
     background-color:#282d32;
-}
-
-.equipe{
-
 }
 
 .cookie{
