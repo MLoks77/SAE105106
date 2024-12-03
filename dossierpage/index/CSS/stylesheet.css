@@ -1,0 +1,113 @@
+/* CSS DE L'INDEX 1*/
+
+body{
+
+    background-image: url(../IMAGES/toustisme.jpg);
+    background-size: 100%;
+    background-repeat: repeat-x;
+    margin:0;
+}
+
+h1:first-child{ 
+    color: #ffffff;
+    text-align: center;
+    margin: 100px;
+    font-size: xxx-large;
+    font-style: italic;
+}
+
+h1{
+    color: #000000;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+.logo{
+    position: relative;
+    font-family: Arial;
+    top: 140px;
+}
+  
+.texteboite{
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+    background-color: rgb(255, 236, 236);
+    color: rgb(0, 0, 0);
+    padding-left: 1200px; /* Position padding boîte*/
+    padding-right: 40px;
+    padding-top: 300px;
+}
+
+.textepres{
+ text-align: center;
+}
+
+ul {
+    top:0;
+    padding-top:0;
+    position:relative;
+    margin:0;
+
+    position: fixed; /* fixe la bar en haut*/
+    list-style-type: none; /* list style tpe permet d'enlever les boules faites par la liste*/
+    width: 100%;
+    margin: 0;
+    overflow: hidden; /* cache le contenu en trop */
+    padding: 0;
+    background-color: #333;
+    }
+
+li {
+    float:left;
+    border-right: 1px solid #ffffff; 
+}
+
+li:last-child{
+    float: right;
+}
+
+a{
+text-decoration: none;
+text-align: center;
+display: block;
+color: rgb(255, 255, 255);
+padding: 14px 20px; /*pour séparer les a et rendre ça plus beau*/
+}
+
+a:hover{
+    color: #ffcf68; /* couleur par dessus quand on passe la souris */
+}
+
+.titre{
+    border-radius: 20%;
+    line-height: 45px;
+    max-width: 800px;
+    margin: 100px auto;
+    border: 1px solid #535353;
+    background-color: #282d32;
+}
+
+.active {
+    background-color: #424fff; /* montre a l'utilisateur la page active */
+}
+.footernoir {
+    margin-top: 100%;
+    padding: 70px;
+    color:#f0f9ff;
+    background-color:#282d32;
+}
+
+.cookie{
+    word-spacing: 20px;
+    text-align: center;
+    line-height: 45px;
+}
+
