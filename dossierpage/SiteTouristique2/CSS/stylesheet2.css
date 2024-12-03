@@ -29,7 +29,11 @@ li:last-child{
     float: right;
 }
 
+<<<<<<< HEAD
 a{
+=======
+li a{
+>>>>>>> f5888a3e113db48cc7ae67dbfbf51847c5470fd3
 text-decoration: none;
 text-align: center;
 display: block;
@@ -43,6 +47,7 @@ a:hover{
 
 .active {
     background-color: #424fff; /* montre a l'utilisateur la page active */
+<<<<<<< HEAD
   }
 
   .footernoir {
@@ -64,3 +69,6 @@ line-height: 45px;
 h1:first-child{
     text-align: center;
 }
+=======
+  }
+>>>>>>> f5888a3e113db48cc7ae67dbfbf51847c5470fd3

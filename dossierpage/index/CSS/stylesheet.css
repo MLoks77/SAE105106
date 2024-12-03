@@ -1,9 +1,12 @@
 /* CSS DE L'INDEX 1*/
 
 body{
+<<<<<<< HEAD
     background-image: url(../IMAGES/toustisme.jpg);
     background-size: 100%;
     background-repeat: repeat-x;
+=======
+>>>>>>> f5888a3e113db48cc7ae67dbfbf51847c5470fd3
     margin:0;
 }
 
@@ -31,7 +34,11 @@ li:last-child{
     float: right;
 }
 
+<<<<<<< HEAD
 a{
+=======
+li a{
+>>>>>>> f5888a3e113db48cc7ae67dbfbf51847c5470fd3
 text-decoration: none;
 text-align: center;
 display: block;
@@ -45,6 +52,7 @@ a:hover{
 
 .active {
     background-color: #424fff; /* montre a l'utilisateur la page active */
+<<<<<<< HEAD
   }
 
 .footernoir {
@@ -66,3 +74,6 @@ line-height: 45px;
 h1:first-child{
     text-align: center;
 }
+=======
+  }
+>>>>>>> f5888a3e113db48cc7ae67dbfbf51847c5470fd3
