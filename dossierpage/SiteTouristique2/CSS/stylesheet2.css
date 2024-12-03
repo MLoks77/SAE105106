@@ -1,9 +1,7 @@
-/* CSS DE L'INDEX 1*/
+/* CSS DU SITE TOURISTIQUE N2 4*/
+
 
 body{
-    background-image: url(../IMAGES/toustisme.jpg);
-    background-size: 100%;
-    background-repeat: repeat-x;
     margin:0;
 }
 
@@ -47,7 +45,7 @@ a:hover{
     background-color: #424fff; /* montre a l'utilisateur la page active */
   }
 
-.footernoir {
+  .footernoir {
     margin-top: 100%;
     padding: 70px;
     color:#f0f9ff;
