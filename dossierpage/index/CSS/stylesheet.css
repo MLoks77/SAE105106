@@ -1,0 +1,75 @@
+/* CSS DE L'INDEX 1*/
+
+body{
+
+    background-image: url(../IMAGES/toustisme.jpg);
+    background-size: 100%;
+    background-repeat: repeat-x;
+
+    background-image: url(../IMAGES/toustisme.jpg);
+    background-size: 100%;
+    background-repeat: repeat-x;
+
+    margin:0;
+}
+
+ul {
+    top:0;
+    padding-top:0;
+    position:relative;
+    margin:0;
+
+    position: fixed; /* fixe la bar en haut*/
+    list-style-type: none; /* list style tpe permet d'enlever les boules faites par la liste*/
+    width: 100%;
+    margin: 0;
+    overflow: hidden; /* cache le contenu en trop */
+    padding: 0;
+    background-color: #333;
+    }
+
+li {
+    float:left;
+    border-right: 1px solid #ffffff; 
+}
+
+li:last-child{
+    float: right;
+}
+
+
+a{
+text-decoration: none;
+text-align: center;
+display: block;
+color: rgb(255, 255, 255);
+padding: 14px 20px; /*pour séparer les a et rendre ça plus beau*/
+}
+
+a:hover{
+    color: #ffcf68; /* couleur par dessus quand on passe la souris */
+}
+
+.active {
+    background-color: #424fff; /* montre a l'utilisateur la page active */
+}
+.footernoir {
+    margin-top: 100%;
+    padding: 70px;
+    color:#f0f9ff;
+    background-color:#282d32;
+}
+
+.equipe{
+
+}
+
+.cookie{
+text-align: center;
+line-height: 45px;
+}
+
+h1:first-child{
+    text-align: center;
+}
+
