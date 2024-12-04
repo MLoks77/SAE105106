@@ -5,3 +5,5 @@ groupe :
 - Farel Tshoki
 
 PRENDRE DANS LA BRANCHE "MAIN2" LE TEMPS QUE JE REGLE LA BRANCHE MAIN
+
+- il a pas tord kc
