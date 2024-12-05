@@ -4,4 +4,4 @@ groupe :
 - Kacper Kurzeja Chociemska
 - Farel Tshoki
 
-PRENDRE DANS LA BRANCHE 2
+PRENDRE DANS LA BRANCHE LA PLUS RECENTE
