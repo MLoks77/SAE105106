@@ -190,6 +190,7 @@ font-size: xx-large;
 .box2:hover {
     transform: translateY(-5px);
     z-index: 1; /*2e dans l'index, empêche la translation de passer au dessus de la navbar*/
+    background-color: #c7e1ff;
 }
 
 /*FIN DE LA PARTIE*/

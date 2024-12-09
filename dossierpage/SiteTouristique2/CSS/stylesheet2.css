@@ -12,6 +12,7 @@ ul {
     padding-top:0;
     position:relative;
     margin:0;
+    z-index: 2;
 
     position: fixed; /* fixe la barre en haut*/
     list-style-type: none; /* "list style type" permet d'enlever les boules faites par la liste*/
@@ -80,26 +81,28 @@ h2:first-child{
 
 
 .hall img{
+    z-index: 1;
     width: 50%;
     height: 50%;
     border-radius: 1%;
 }
 
 .exterieur img{
+    z-index: 1;
     width: 50%;
     height: 50%;
     border-radius: 1%;
+
 }
 
 .scene img{
+    z-index: 1;
     width: 50%;
     height: 50%;
     border-radius: 1%;
-    position: relative;
-    
+
     
 }
-
 
 .footernoir{
     margin-top:20%;
