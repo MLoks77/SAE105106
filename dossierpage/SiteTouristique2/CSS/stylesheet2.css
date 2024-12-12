@@ -51,13 +51,6 @@ h2:first-child{
     background-color: #424fff; /* montre à l'utilisateur la page active */
 }
 
-.footer{
-    position: absolute; 
-    bottom: 0; 
-    left: 0; 
-    z-index: 10;
-}
-
 .titre{
     position: relative;
     width: 100%;
