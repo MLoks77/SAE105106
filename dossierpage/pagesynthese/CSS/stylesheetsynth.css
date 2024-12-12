@@ -29,7 +29,6 @@ li:last-child{
     float: right;
 }
 
-
 a{
 text-decoration: none;
 text-align: center;
@@ -47,20 +46,19 @@ a:hover{
   }
 
 .footernoir {
-    margin-top: 100%;
+    margin-top:20%;
     padding: 70px;
     color:#f0f9ff;
     background-color:#282d32;
 }
 
-
-
 .cookie{
-text-align: center;
-line-height: 45px;
+    word-spacing: 20px;
+    text-align: center;
+    line-height: 45px;
 }
 
-h1:first-child{
+h2{
     text-align: center;
 }
 
