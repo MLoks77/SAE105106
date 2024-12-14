@@ -1,17 +1,13 @@
 /* CSS DE LA PAGE DE SYNTHESE 2*/
-
-
 body{
     margin:0;
     background-color: #f4f4f4;
 }
-
 ul {
     top:0;
     padding-top:0;
     position:relative;
     margin:0;
-
     position: fixed; /* fixe la bar en haut*/
     list-style-type: none; /* list style tpe permet d'enlever les boules faites par la liste*/
     width: 100%;
@@ -19,17 +15,14 @@ ul {
     overflow: hidden; /* cache le contenu en trop */
     padding: 0;
     background-color: #333;
-    }
-
+}
 li {
     float:left;
     border-right: 1px solid #ffffff; 
 }
-
 li:last-child{
     float: right;
 }
-
 a{
 text-decoration: none;
 text-align: center;
@@ -37,28 +30,21 @@ display: block;
 color: rgb(255, 255, 255);
 padding: 14px 20px; /*pour séparer les a et rendre ça plus beau*/
 }
-
 a:hover{
     color: #ffcf68; /* couleur par dessus quand on passe la souris */
 }
-
 h2{
     text-align: center;
 }
-
 .active {
     background-color: #424fff; /* montre a l'utilisateur la page active */
-  }
-
-
+}
 /* PARTIE HEADER */
-
 .headerVPT h1 {
     font-size: 3rem;
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
     color: #ffffff;
 }
-
 .headerVPT {
     position: relative;
     width: 100%;
@@ -71,66 +57,55 @@ h2{
     justify-content: center;
     align-items: center;
 }
-
-
 /* FIN PARTIE HEADER*/
-
-/*A PARTIR D'ICI C'EST LA PARTIE AVEC L4IMAGE DE L'OPERA GARNIER A GAUCHE ET LE TEXTE A DROITE*/
-
+/*A PARTIR D'ICI C'EST LA PARTIE AVEC L'IMAGE DE L'OPERA GARNIER A GAUCHE ET LE TEXTE A DROITE*/
 .box {
     display: flex;
-    max-width: 80%;
+    max-width: 90%;
     width: 90%;
     background: #fff;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     overflow: hidden;
     margin: auto;
-}
 
+}
+.box h3{
+    margin: auto;
+}
 .synth {
     flex: 1;
-    margin-top: 140px;
+    margin-top: 150px;
     margin-left: 40px;
+    margin-bottom: 70px;
 }
-
 .synth img {
     width: 100%;
     margin-top: auto;
 }
-
 .textsynth {
     flex: 2;
     padding: 20px;
 }
-
 .textsynth h1 {
     margin-top: 0;
     font-size: 4rem;
     color: #333;
 }
-
 .textsynth a {
-
 color: #101010;
-
 }
-
 .textsynth a:hover {
 color: #ffcf68;
-
 }
-
-
 .textsynth p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     line-height: 1.2;
     color: #101010;
 }
 /* FIN DE LA PARTIE */
-
 .footernoir {
-    margin-top:10%;
+    margin-top:5%;
     padding: 70px;
     color:#f0f9ff;
     background-color:#282d32;
