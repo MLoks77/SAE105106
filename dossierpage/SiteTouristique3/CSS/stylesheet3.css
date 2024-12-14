@@ -43,6 +43,11 @@ li:last-child{
     float: right;
 }
 
+hr {
+margin-left: 100px;
+margin-right: 100px;
+}
+
 a{
 text-decoration: none;
 text-align: center;
@@ -109,11 +114,142 @@ a:hover{
 
 /*Fin partie description*/
 
-/*GALLERIE*/
+/*A PARTIR D'ICI C'EST LA PARTIE AVEC LE COLISEE A GAUCHE ET LE TEXTE A DROITE*/
 
-/*FIN GALLERIE*/
+.PART2 {
+    display: flex;
+    background: #fff;
+    overflow: hidden;
+    margin: auto;
+}
+
+.col {
+    flex: 1;
+}
+
+.col img {
+    border-radius: 5%;
+    margin-left: 50px;
+    width: 120%;
+    height: 100%;
+    display: block;
+}
+
+.textdesc {
+    flex: 2;
+    padding: 20px;
+}
+
+.textdesc h1 {
+    margin: auto;
+    margin-top: 0;
+    font-size: 4rem;
+    color: #333;
+}
+
+.textdesc p {
+    font-size: 1.5rem;
+    line-height: 1.2;
+    color: #000000;
+    margin-left: 180px;
+}
+
+/* FIN */
+
+
+
+/* FIN PARTIE VIDEO TARIF*/
+
+.box3 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 2.9%;
+    margin-right: 2.9%;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 40px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 20px;
+}
+
+.video, .tarifs {
+    flex: 1; 
+    padding: 10px;
+}
+
+.video video {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.tarifs {
+    border: 1px solid rgb(124, 124, 124);
+    border-radius: 5px;
+    font-size: larger;
+}
+
+.table2 {
+    border: 0.5px solid black;
+    border-radius: 5px;
+    font-size: larger;
+}
+
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+td, th{
+    border: 1px solid #525252;
+    padding: 8px;
+    text-align: center;
+}
+
+th{
+    background-color: #ec7b1f;
+    color: rgb(255, 255, 255);
+}
+
+/*FIN prix et horaire*/
+
+/*contact*/
+
+
+.contact {
+    font-size: larger;
+    margin-top: 1px;
+    margin: auto;
+    border-radius: 5px;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.contact img{
+width: auto;
+height: 200px;
+}
+
+.contact p{
+    color: black;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contact:hover {
+    transform: translateY(-5px);
+    z-index: 1; /*2e dans l'index, empêche la translation de passer au dessus de la navbar*/
+    background-color: #ffffff;
+}
+
+/*contact*/
+
 .footernoir {
-    margin-top:20%;
+    margin-top:5%;
     padding: 70px;
     color:#f0f9ff;
     background-color:#282d32;
