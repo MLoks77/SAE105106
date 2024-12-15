@@ -1,12 +1,11 @@
 /* CSS DU SITE TOURISTIQUE N2 */
 
-
 body{
     margin:0px;
     padding:0px;
-    background-image: linear-gradient(to bottom, #f17d7d, #f3c83acc);
+    background-image: linear-gradient(225deg, #E05708, #F8C378) ;
 }
-/*#F1C27D, #ffd900af)*/
+
 ul{
     top:0;
     padding-top:0;
@@ -42,7 +41,7 @@ a:hover{
     color: #ffcf68; /* couleur par dessus quand on passe la souris */
 }
 
-h2:first-child{
+h2:first-child{         /* Crédit */
     text-align: center;
 }
 
@@ -51,20 +50,19 @@ h2:first-child{
 }
 
 .titre{
+    font-style: italic;
     position: relative;
     width: 100%;
     height: 60vh;
-    background-image: url("../IMAGES/opera.jpg"); /* Remplacez par le chemin de votre image */
-    background-size: cover;
+    background-image: url("../IMAGES/opera.jpg"); 
+    background-size: cover; /* Pour que l'image prenne tout l'espace*/
     background-position: center;
-    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; /* Aligner le texte et la vidéo au centre */
 }
 
-
-iframe {
+iframe {            /* Vidéo */
     display: block;
     margin-left: 20%;
 }
@@ -89,7 +87,7 @@ iframe {
     display: flex;
     max-width: 1200px;
     width: 90%;
-    background: #ffffff;
+    background: #ffffff52;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     overflow: hidden;
@@ -99,16 +97,18 @@ iframe {
 .textehall h1{
     color: #ffffff;
     text-decoration: underline;
-    text-shadow: rgba(255, 0, 0, 0.678) 1px 0 10px;
+    text-shadow: rgb(255, 94, 0) 1px 0 10px;
     text-align: center;
     height: 90px;
-    font-size: 30px;
+    font-size: 300%;
 }
 
 .textehall p{
-    color:rgb(35, 221, 15);
+    color:rgb(255, 255, 255);
+    text-shadow: rgb(255, 94, 0) 1px 0 4px;
     margin-right: 50px;
     margin-left: 50px;
+    font-size: 125%;
 }   
 
 .exterieur{
@@ -129,18 +129,18 @@ iframe {
 .texteexterieur h1{
     color: #ffffff;
     text-decoration: underline;
-    text-shadow: rgb(0, 102, 255, 0.678) 1px 0 10px;
+    text-shadow: rgba(255, 115, 0, 0.678) 1px 0 10px;
     text-align: center;
     height: 90px;
-    font-size: 30px;
+    font-size: 300%;
 }
 
 .texteexterieur p{
-    color:rgb(35, 221, 15);
-}
-
-.texteexterieur{
-    margin-left: 40px;
+    color:rgb(255, 255, 255);
+    text-shadow: rgba(255, 115, 0, 0.678) 1px 0 4px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: 125%;
 }
 
 .scene img{
@@ -159,11 +159,15 @@ iframe {
     text-shadow: rgba(255, 230, 0, 0.678) 1px 0 10px;
     text-align: center;
     height: 90px;
-    font-size: 30px;
+    font-size: 300%;
 }
 
 .textescene p{
-    color:rgb(35, 221, 15)
+    color:rgb(255, 255, 255);
+    text-shadow: rgba(255, 230, 0, 0.678) 1px 0 4px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: 125%;
 }
 
 .parties section{
@@ -186,7 +190,45 @@ iframe {
     text-align: justify; 
 }
 
-.footernoir{
+.table-container {                 /* box du tableau */
+    max-width: 1200px;
+    padding: 20px;
+    background-color: #ebbb79;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 5%;
+
+}
+
+.table-container h1{      /* titre de la box */
+    text-align: center;
+    color: #ffffff;
+    text-shadow: rgba(0, 0, 0, 0.678) 1px 0 10px;
+}
+
+table {                        /* éléments dans la box */
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {                /* cases */
+    text-align: left;
+    padding: 12px;
+    border: 1px solid #000000;
+    color: #ffffff;
+    text-shadow: rgba(0, 0, 0, 0.678) 1px 0 4px;
+
+}
+
+th {                                /* première ligne */
+    background-color: #ffae00;
+    color: #ffffff;
+    text-shadow: rgba(0, 0, 0, 0.678) 1px 0 4px;
+}
+
+.footernoir{                        /* footer */
     margin-top: 20%;
     padding: 70px;
     color:#f0f9ff;
