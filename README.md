@@ -12,4 +12,4 @@ l'image noix de coco dans les dossiers permettent aux dossiers d'être affiché 
 
 Le site a été host sur Byethost.
 
-http://www.vptourmkf.byethost3.com/dossierpage/index/HTML/index.html
+http://www.vptourmkf.byethost3.com/dossierpage//////index/HTML/index.html
