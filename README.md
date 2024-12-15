@@ -1,8 +1,8 @@
 GITHUB POUR LA SAE 105 106 
 groupe :
-- Maxime Derènes
-- Kacper Kurzeja Chociemska
-- Farel Tshoki
+- Maxime Derènes TD3 TPF
+- Kacper Kurzeja Chociemska TD3 TPF
+- Farel Tshoki TD3 TPF
 
 les vidéos sur le site peuvent prendre du temps à charger.
 
