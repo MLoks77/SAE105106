@@ -6,7 +6,7 @@ _**Groupe**_
 - Kacper Kurzeja Chociemska TD3 TPF
 - Farel Tshoki TD3 TPF
 
-_** Le site est réalisé en**_
+Le site est réalisé en
 
 - HTML
 - CSS
